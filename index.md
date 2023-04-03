@@ -59,7 +59,7 @@ More to the point of today's WebR experiment, Emscripten also provides a virtual
 
 [By default](https://emscripten.org/docs/api_reference/Filesystem-API.html?highlight=web_user), Emscrpiten creates `/home/web_user` and `/tmp`, so they _would_ be common directories, if there was a single shared Emscripten in-browser filesystem.
 
-### Experiment Results
+## Experiment Results
 
 Given that browser WASM contexts are [sandboxed](https://webassembly.org/docs/security/), I figured that each got its own Emscripten filesystem. It makes sense that they wouldn't, but it's also easy to prove one way or another. 
 
@@ -102,7 +102,7 @@ And, the results are in!
 **Pyodide's `/home`**
 <pre class="shiki" id="py-fs"></pre>
 
-### Hack To Use WebR's "Data" In Pyodide
+## Hack To Use WebR's "Data" In Pyodide
 
 I don't _think_ there's (yet) an equivalent of Pyodide's [ability to access its parent JavaScript context from within Pyodide](https://pyodide.org/en/stable/usage/quickstart.html#accessing-javascript-scope-from-python). If I'm right about that, fear not, since it's almost a given that there will be an equivalent as WebR matures.
 
