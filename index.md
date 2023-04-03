@@ -8,8 +8,8 @@
     "description": "Sharing Data Between R and Python Contexts",
     "image": {
       "url": "https://rud.is/w/webr-pyodide-fs",
-      "height": "1170",
-      "width": "1932",
+      "height": "1256",
+      "width": "1774",
       "alt": "example"
     }
   },
@@ -123,5 +123,7 @@ Open up your browser's Developer Tools console to see that the above does, indee
 ## FIN
 
 The results were unsurprising, but hopefully this will save others some time down the road.
+
+You can find the source for this experiment [on GitHub](https://github.com/hrbrmstr/webr-pyodide-fs).
 
 <p style="text-align: center">Brought to you by @hrbrmstr</p>
