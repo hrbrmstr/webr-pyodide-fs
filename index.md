@@ -7,7 +7,7 @@
     "url": "https://rud.is/w/webr-pyodide-fs",
     "description": "Sharing Data Between R and Python Contexts",
     "image": {
-      "url": "https://rud.is/w/webr-pyodide-fs",
+      "url": "https://rud.is/w/webr-pyodide-fs/preview.png",
       "height": "1256",
       "width": "1774",
       "alt": "example"
