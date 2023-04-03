@@ -61,7 +61,7 @@ More to the point of today's WebR experiment, Emscripten also provides a virtual
 
 ## Experiment Results
 
-Given that browser WASM contexts are [sandboxed](https://webassembly.org/docs/security/), I figured that each got its own Emscripten filesystem. It makes sense that they wouldn't, but it's also easy to prove one way or another. 
+Given that browser WASM contexts are [sandboxed](https://webassembly.org/docs/security/), I figured that each got its own Emscripten filesystem. It makes sense that they wouldn't the same, single Emscripten filesystem, but it's also easy to prove one way or another. 
 
 Some new bits to check out in the code:
 
